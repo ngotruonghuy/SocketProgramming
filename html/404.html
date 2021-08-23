@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page not found</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background: #222f3e;
+            position: relative;
+        }
+        h1{
+            text-align: center;
+            color: #c8d6e5;
+            position: relative;
+            display: block;
+            margin-top: 200px;
+            font-size: 750%;
+            text-shadow: black 20px 20px 1000px;
+        }
+        h2{
+            margin-top: -75px;
+            text-align: center;
+            color: #c8d6e5;
+            font-size: 200%;
+            text-shadow: blue 20px 200px 1000px;
+        }
+        h3{
+            margin-top: 75px;
+            text-align: center;
+            color: #c8d6e5;
+        }
+        p{
+            text-align: center;
+            color: #c8d6e5;
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+        }
+        .button{
+            position: relative;
+            border: 2px solid #3498db;
+            padding: 14px 14px;
+            width: 200px;
+            color: #c8d6e5;
+            border-radius: 24px;
+            transition: 0.25s;
+            cursor: pointer;
+            background: none;
+        }
+        .button:hover{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>404</h1>
+    <h2>ERROR</h2>
+    <h3>PAGE NOT FOUND</h3>
+    <p>Something went wrong. Please check your request! </p>
+    <form class="box" action="/index.html" method="get">
+        <div class="center">
+            <input class="button" type="submit" value="Return to Homepage">
+        </div>
+    </form>
+</body>
+</html>

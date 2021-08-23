@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Information</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            align-items: center;
+            justify-content: center;
+            background: #130f40;
+
+
+        }
+        .card-info{
+            margin-top: 100px;
+            border-radius: 24px;
+            margin-left: 700px;
+            z-index: 1;
+            border-top-left-radius: 100px;
+            width: 750px;
+            height: 300px;
+            background-color: #ecf0f1;
+            position: relative;
+        }
+        .card-info-2{
+            margin-top: 120px;
+            border-radius: 24px;
+            margin-left: 450px;
+            z-index: 1;
+            border-top-left-radius: 100px;
+            width: 750px;
+            height: 300px;
+            background-color: #ecf0f1;
+            position: relative;
+        }
+        img.one{
+            height: 200px;
+            width: 200px;
+            z-index: 1;
+            position: relative;
+            margin-top: -1em;
+            margin-left: -1.5em;
+            border-radius: 300px;
+            background-image:   linear-gradient(to bottom, #00f260, #0575e6);
+            box-shadow: 20px 20px 2000px;
+            border: transparent 80px;
+            padding: 8px;
+            animation: animated-gradient 2s linear infinite;
+            background-size: 200% 200%;
+        }
+        .box{
+            position:absolute;
+            background-image: linear-gradient(to top, #8e2de2, #4a00e0);
+            z-index: 0;
+            width: 1000px;
+            height: 130px;
+            border-top-left-radius: 40px;
+            border-top-right-radius: 24px;
+            box-shadow: 1px 1px 500px;
+            text-align:center;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+        .name{
+            color: rgb(204, 194, 194);
+            margin-top: 40px;
+        }
+        img.two{
+            height: 200px;
+            width: 200px;
+            z-index: 1;
+            position: relative;
+            margin-top: -1em;
+            margin-left: -1.5em;
+            border-radius: 300px;
+            background-image:   linear-gradient(to top, #00f260, #0575e6);
+            box-shadow: 20px 20px 2000px;
+            border: transparent 80px;
+            padding: 8px;
+            animation: animated-gradient 2s linear infinite;
+            background-size: 200% 200%;
+        }
+        @keyframes animated-gradient{
+            25%{
+                background-position: left bottom;
+            }
+            50%{
+                background-position: right bottom;
+            }
+            75%{
+                background-position: right top;
+            }
+            100%{
+                background-position: left top;
+            }
+        }
+        .information
+        {
+            position:absolute;
+            margin-top: -55px;
+            margin-left: 170px;
+        }
+        li{
+            margin: 10px;
+            font-weight:bold;
+        }
+        .corner{
+            position: fixed;
+            text-align: left;
+            height: 1200px;
+            width: 1100px;
+            margin-top: -900px;
+            margin-left: -600px;
+            background-color: white;
+            border-radius: 1000px;
+        }
+        .corner-name{
+            position: fixed;
+            padding: 20px;
+            color:#34495e ;
+            margin-left: 630px;
+            margin-top: 850px;
+            font-size: 250%;
+            font-family: 'Times New Roman', Times, serif;
+            animation: animated-gradient 2s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="corner">
+        <h1 class="corner-name">THÀNH VIÊN<br>NHÓM:</h1>
+    </div>
+    <div class="card-info">
+        <img class="one" src="\img\avatar1.jpg" alt="Nguyen Xuan Nguyen">
+        <div class="box">
+            <h1 class="name">Nguyễn Xuân Nguyễn</h1>
+        </div>
+        <div class="information">
+           <Ul>
+               <li>MSSV: 1712624</li>
+               <li>Lớp: 17CTT5</li>
+               <li>Ngày sinh: 13/02/1999</li>
+               <li>Email: nguyenxuannguyen1302@gmail.com</li>
+           </Ul>
+        </div>
+    </div>
+    <div class="card-info-2">
+        <img class="two" src="\img\avatar2.jpg" alt="Ngo Truong Huy" >
+        <div class="box">
+            <h1 class="name">Ngô Trường Huy</h1>
+        </div>
+        <div class="information">
+           <Ul>
+               <li>MSSV: 19120242</li>
+               <li>Lớp: 19CTT2</li>
+               <li>Ngày sinh: 21/06/2001</li>
+               <li>Email: truonghuycorn@gmail.com</li>
+           </Ul>
+        </div>
+    </div>
+</body>
+</html>
